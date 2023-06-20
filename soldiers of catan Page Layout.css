@@ -1,0 +1,64 @@
+body {
+	display: webkit-flex;
+	background-color: grey;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.infoBox {
+	background-color: lightgrey;
+}
+
+.main {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-flow: wrap;
+	background-color: lightgrey;
+	overflow: hidden;
+	padding: 5px 20px;
+}
+
+#board {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+#bars {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#trader {
+	background-color: grey;
+	display: flex;
+}
+
+#turnBox {
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	outline: 5px grey;
+	outline-style: solid;
+}
+
+#info {
+	display: flex;
+	text-align: center;
+}
+
+#buttons {
+	display: flex;
+	flex-direction: row;
+}
