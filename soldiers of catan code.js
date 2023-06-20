@@ -777,7 +777,7 @@ infoArea.style.fontSize = fontSize;
 const panels = ["DEFAULT PANEL","playerCount select","botCount select","turnOrder roll","yourOrder ok","beginSetup ok","setupPrompt tiler","confirmSetupBuild ok","cantSetupThere ok","youSetupBuiltX ok","beginGame ok","itsYourTurn ok","playerStart roll","rollResults ok","youProduced ok","battlePrompt yesno","battlePrompt tiler","cantBattleThere ok","whenMultiOnTile select","battlePanel rollselect","battleEndReason ok","battleSpoils ok","buildPrompt yesno","buildPrompt tiler","cantBuildThere ok","builtPointCount select","desertBuilder select","youBuiltX ok","movePrompt yesno","moveDestinationPrompt tiler","cantMoveTo ok","moveOriginPrompt tiler","cantMoveFrom ok","movePointCount select","desertMover select","youMovedX ok","resTrade select","3for1 select","chooseResource select","5forToken yesno","5forToken select","endTurn yesno","youWon"];
 
 //FOR TESTING PURPOSES:-------------------------------------------
-let skipIt = 1;
+let skipIt = 0;
 if (skipIt) {
 	game.panel = panels.indexOf("movePrompt yesno");//p27
 	makePanel("Move points?",[["Yes",true],["No",false],["Trade",45882]]);
